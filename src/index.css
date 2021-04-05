@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+
+/* .navbar{
+  font-family: 'Oswald', sans-serif;
+color: aqua;
+}
+
+.navbar-brand{
+  font-size: 40px;
+  color: rgb(0, 26, 255) !important}
+
+
+  .navbar-nav a{
+
+    color: fuchsia !important;
+  }
+
+  .nav-link active a:hover{
+
+    color: springgreen;
+  }
+
+  .nav-item a{
+    text-transform: capitalize;
+  }
+
+  .nav-link active{
+    font-weight: bold;
+    border-bottom: 1px solid purple;
+  }
+
+  .nav-link active:hover{
+    color: skyblue;
+  } */
+
+  
+
+  .active_menu{
+   font-weight: bold;
+   border-bottom: 2px dotted blueviolet;
+
+  }
+
+  #header{
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  #header h1{
+ margin: 0 0 10px 0;
+ font-size: 32px;
+ font-weight: bold;
+ color: #000;
+  }
+
+
+
+  #header h3{
+  color:#484848;
+  font-size: 24px;
+  }
+
+
+
+/*  
+  .btn{
+    border-radius: 10%;
+    background-color: chartreuse;
+    padding: 10px 20px;
+    font-weight: 700;
+  } */
+
+   .brand-name{
+    color:cornflowerblue;
+    font-size: 40px;
+   }
+
+
+   #header .animated{
+    width:80%;
+  
+}
+
+#header .animated{
+  animation: up-down 3s ease-in-out infinite alternate-reverse both;
+  margin-left: 30px;
+}
+
+@-webkit-keyframes up-down{
+  0% {
+    transform:translateY(10px);
+  }
+  100% {
+    transform:translateY(-10px);
+  }
+}
+
+@keyframes up-down{
+  0% {
+    transform:translateY(10px);
+  }
+  100% {
+    transform:translateY(-10px);
+  }
+}
+
+
+
+.card-title {
+
+}
+
+.footers{
+
+  padding-top: 5px;
+  background-color: #9ab8f0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.Services{
+color: #6495ED;
+margin: 20px ;
+text-decoration: underline 2px dashed blue ;
+text-underline-offset: 10px;
+padding-bottom: 50px;
+}
+
+
+.Contact{
+  color: #6495ED;
+text-decoration: underline 2px dashed blue ;
+text-underline-offset: 10px;
+
+}
+
+.form{
+ padding-bottom: 130px;
+}
+
+.Cardclass{
+  margin-bottom: 30px;
+}
